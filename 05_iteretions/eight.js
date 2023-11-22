@@ -43,3 +43,4 @@ const shoppingCart=[
 
 const pricetopay=shoppingCart.reduce( (acc, item) => (acc+ item.price),0)
 console.log(pricetopay); //16000
+
